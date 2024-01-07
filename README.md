@@ -3,6 +3,8 @@ I'm excited to announce the completion of a Deploying Super Mario on Kubernetes.
 Many people enjoy the classic game Super Mario. We'll look at how to deploy a Super Mario game on Amazon's Elastic Kubernetes Service (EKS) in this guide. We can orchestrate the game's deployment on AWS EKS using Kubernetes, allowing for scalability, reliability, and ease of management.
 
 
+![b5231103-4b2e-47d9-a8ef-4ac78dec652b](https://github.com/durga049/Deploying-Super-Mario-on-Kubernetes/assets/100748026/b8e3df39-ed16-424a-9d01-c5e593eecbcd)
+
 
 Prerequisites:🔅
 1✅ An Ubuntu Instance
@@ -11,6 +13,7 @@ Prerequisites:🔅
 4✅ AWS CLI and KUBECTL on Instance
 
 LET'S DEPLOY
+
 STEP 1: Launch Ubuntu instance
 
 1✔ Sign in to AWS Console: Log in to your AWS Management Console.
