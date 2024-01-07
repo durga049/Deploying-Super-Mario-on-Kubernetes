@@ -42,31 +42,51 @@ cd Deploying-Super-Mario-on-Kubernetes
 
 
 sudo chmod +x script.sh
+
 ./script.sh
+
 This script will install Terraform, AWS cli, Kubectl, Docker.
 
 Now change directory into the EKS-TF
+
 Run Terraform init
+
 terraform validate
+
 terraform plan
+
 terraform apply --auto-approve
+
 aws eks update-kubeconfig --name EKS_CLOUD --region ap-south-1
+
 cd ..
+
 kubectl apply -f deployment.yaml
+
 #to check the deployment
+
 kubectl get all
+
 kubectl apply -f service.yaml
+
 kubectl get all
+
 kubectl describe service mario-service
 
 Destruction :
+
 Let's remove the service and deployment first
+
 kubectl get all
+
 kubectl delete service mario-service
+
 kubectl delete deployment mario-deployment
 
 Let’s Destroy the cluster
+
 cd EKS-TF
+
 terraform destroy --auto-approve
 
 Paste the ingress link in a browser and you will see the Mario game.
