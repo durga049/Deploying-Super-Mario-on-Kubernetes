@@ -14,17 +14,17 @@ Prerequisites:🔅
 4✅ AWS CLI and KUBECTL on Instance
 
 LET'S DEPLOY
-> STEP 1: Launch Ubuntu instance
+STEP 1: Launch Ubuntu instance
 1✔ Sign in to AWS Console: Log in to your AWS Management Console.
 2✔ Navigate to EC2 Dashboard: Go to the EC2 Dashboard by selecting "Services" in the top menu and then choosing "EC2" under the Compute section.
 3✔ launch Instance: Click on the "Launch Instance" button to start the instance creation process.
 4✔ Choose an Amazon Machine Image (AMI): Select an appropriate AMI for your instance. For example, you can choose Ubuntu image.
 5✔ Choose an Instance Type: In the "Choose Instance Type" step, select t2.micro as your instance type. Proceed by clicking "Next: Configure Instance Details."
 6✔ Configure Instance Details:
->>For "Number of Instances," set it to 1 (unless you need multiple instances).
->>Configure additional settings like network, subnets, IAM role, etc., if necessary.
->>For "Storage," click "Add New Volume" and set the size to 8GB (or modify the existing storage to 8GB).
->>Click "Next: Add Tags" when you're done.
+For "Number of Instances," set it to 1 (unless you need multiple instances).
+Configure additional settings like network, subnets, IAM role, etc., if necessary.
+For "Storage," click "Add New Volume" and set the size to 8GB (or modify the existing storage to 8GB).
+Click "Next: Add Tags" when you're done.
 ⭕Access the EC2 Instance: Once the instance is launched, you can access it using the key pair and the instance's public IP or DNS.
 
 Now clone this Repo. ⬇
