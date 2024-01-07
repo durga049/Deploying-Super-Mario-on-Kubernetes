@@ -36,6 +36,8 @@ Click "Next: Add Tags" when you're done.
 
 Now clone this Repo. ⬇
 
+https://github.com/durga049/Deploying-Super-Mario-on-Kubernetes.git
+
 
 STEP BY STEP, CONTINUE 😋😋🎮 🎮
 cd Deploying-Super-Mario-on-Kubernetes
